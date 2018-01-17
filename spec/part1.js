@@ -470,15 +470,8 @@
         _.reduce([1, 2, 3, 4], function(memo, item) {
           // FILL_ME_IN
           // Add a line here that makes this test pass
-          // for a working implementation of reduce
-
-
-          // console.log(arguments);
-          // memo = arguments[0];
-          for (var i = 0; i < [argument[0] ])
-
-  
-          return memo;
+          // for a working implementation of reduce 
+          orderTraversed.push(item);
         }, 10);
 
         expect(orderTraversed).to.eql([1, 2, 3, 4]);
